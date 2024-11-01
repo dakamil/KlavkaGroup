@@ -1,0 +1,235 @@
+footer{
+    background: #F2F4F5;
+    position: relative;
+}
+
+.footer__main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 47px 0 38px;
+    position: relative;
+    z-index: 9;
+}
+.footer__cont{
+    max-width: 310px;
+    width: 100%;
+}
+.footer__phone{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer__loc{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.footer__loc:last-child{
+    align-items: flex-start;
+}
+.footer__icon{
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.footer__loc span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D5055;
+    display: block;
+    max-width: 244px;
+    width: 100%;
+}
+.footer__loc p{
+    max-width: 145px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D5055;
+}
+.footer__menu strong{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.footer__menu ul{
+    margin-top: 14px;
+}
+.footer__menu ul li{
+    margin-bottom: 8px;
+}
+.footer__menu ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #7D828A;
+    transition: 0.3s;
+}
+.footer__menu ul li a:hover{
+    color: #EF652F;
+}
+.footer__flex{
+    display: flex;
+    align-items: flex-start;
+}
+.footer__flex ul{
+    max-width: 254px;
+    width: 100%;
+}
+.footer__flex ul + ul{
+    margin-left: 112px;
+}
+.footer__item{
+    position: relative;
+    left: -42px;
+}
+
+.footer__item .footer__menu + .footer__menu {
+    margin-top: 46px;
+}
+.footer__polit{
+    border-top: 1px solid #D3D3D3;
+    padding: 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__polit span, .footer__polit p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7D828A;
+}
+
+
+
+@media (max-width: 1600px){
+
+    .footer__item{
+        position: relative;
+        left: 0;
+    }
+}
+@media (max-width: 1399px){
+    .footer__flex ul + ul {
+        margin-left: 20px;
+    }
+    .footer__flex ul {
+        max-width: 220px;
+    }
+    .footer__menu ul li a {
+        font-size: 15px;
+    }
+    .footer__cont {
+        max-width: 225px;
+    }
+    .footer__loc span {
+        font-size: 15px;
+        line-height: 26px;
+        max-width: 156px;
+    }
+    .footer__icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 16px;
+    }
+}
+@media (max-width: 1299px){
+    .footer__flex ul + ul {
+        margin-left: 60px;
+    }
+}
+@media (max-width: 1199px){
+    .footer__main {
+        padding: 34px 0;
+        flex-wrap: wrap;
+    }
+
+    .footer__polit {
+        padding: 34px 0;
+    }
+}
+@media (max-width: 991px){
+    .footer__main {
+        flex-direction: column;
+    }
+    .footer__menu{
+        margin-top: 30px;
+    }
+    .footer__flex {
+        flex-direction: column;
+    }
+    .footer__flex ul + ul {
+        margin-left: 0;
+    }
+    .footer__polit{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer__polit {
+        padding: 34px 0 80px;
+    }
+}
+@media (max-width: 570px){
+    .footer__loc span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer__polit {
+        padding: 24px 0 70px;
+    }
+    .footer__polit p {
+        margin-top: 16px;
+    }
+    .footer__loc p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .footer__phone {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .footer__loc {
+        margin-top: 26px;
+    }
+    .footer__menu {
+        margin-top: 42px;
+    }
+    .footer__menu ul {
+        margin-top: 10px;
+    }
+    .footer__flex ul + ul {
+        margin-top: 0;
+    }
+    .footer__item .footer__menu{
+        margin-top: 20px;
+    }
+    .footer__item .footer__menu + .footer__menu {
+        margin-top: 30px;
+    }
+    .footer__main {
+        padding: 34px 0 40px;
+    }
+    .footer__cont {
+        max-width: 330px;
+    }
+    .footer__loc span {
+        max-width: 217px;
+    }
+}

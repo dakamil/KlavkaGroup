@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="javascript:;" data-val="one-click-err" class="open_modal btn-liner">Купить в 1 клик</a>
+
+<div id="one-click-err" class="modal">
+    <div class="modal-content">
+        <div class="buy-click__mod">
+            <div class="close"></div>
+            <div class="buy-click__cnt">
+                <h3>Купить в 1 клик</h3>
+                <p>Менеджер перезвонит вам, узнает все детали и сам оформит заказ на ваше имя</p>
+            </div>
+            <form>
+                <div class="mod-facing">
+                    <div class="clinker-fac__pic">
+                        <img src="assets/img/photo28.png" alt="png">
+                    </div>
+                    <p>Кирпич клинкерный облицовочный пустотелый Kerma Premium Klinker Красный риф WFD</p>
+                    <div class="add-catalog-for-shop">
+                        <div class="add-catalog-val-count">
+                            <div class="decrement">
+                                <i class="icon minus"></i>
+                            </div>
+                            <label>
+                                <input type="text" class="catalog-count-value"
+                                       data-mane="16689" value="1">
+                            </label>
+                            <div class="increment">
+                                <i class="icon plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-inp__fl">
+                    <div class="modal-inp">
+                        <span class="tit-form">Имя</span>
+                        <label>
+                            <input type="text">
+                        </label>
+                    </div>
+                    <div class="modal-inp modal-inp__err">
+                        <span class="tit-form">Введите телефон</span>
+                        <label>
+                            <input type="text" pattern="\+7 \(\d{3}\)-\d{3}-\d{2}-\d{2}"
+                                   class="phone">
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-textarea">
+                    <span class="tit-form">Ваш комментарий</span>
+                    <label>
+                        <textarea></textarea>
+                    </label>
+                </div>
+                <button class="btn">Оформить заказ</button>
+                <div class="checkout__text">
+                    <p>
+                        Нажимая кнопку “Оформить заказ”, Вы даете свое согласие на обработку персональных данных
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<a href="javascript:;" data-val="thenks" class="open_modal btn-liner">Спасибо</a>
+
+<div id="thenks" class="modal">
+    <div class="modal-content">
+        <div class="back-call__block">
+            <div class="close"></div>
+            <div class="mod-thenks">
+                <h4>Спасибо!</h4>
+                <p>Мы свяжемся с вами в ближайшее время
+                    График работы: пн-вс, 9:00 - 20:00	</p>
+                <a href="#" class="btn">Вернуться к покупкам</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="javascript:;" data-val="product__mod" class="open_modal btn-liner">Товар продается</a>
+
+<div id="product__mod" class="modal">
+    <div class="modal-content">
+        <div class="product-sold">
+            <div class="close"></div>
+            <img src="assets/img/bricks-wall.svg" alt="svg">
+            <h2>Товар продается кратно поддону</h2>
+            <p>Количество товара на поддоне: <b>420</b> шт.</p>
+            <div class="product-introduced">
+                <p>Вы ввели:</p>
+                <div class="add-catalog-for-shop">
+                    <div class="add-catalog-val-count error-val__number">
+                        <div class="decrement">
+                            <i class="icon minus"></i>
+                        </div>
+                        <label>
+                            <input type="text" class="catalog-count-value" data-mane="16689" value="1">
+                        </label>
+                        <div class="increment">
+                            <i class="icon plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <span>Кол-во меньше минимального</span>
+            </div>
+            <div class="count-pallets__btn">
+                <button class="btn">
+                    <span>Посчитать в поддонах</span>
+                    <small>2 поддона, 840 шт.</small>
+                </button>
+                <button class="btn__cons">
+                    <img src="assets/img/icons/buy-gaz.svg" alt="bas">
+                    <span>Добавить в корзину</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/jquery.formstyler.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.mask.js"></script>
+<script src="assets/js/sliders.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

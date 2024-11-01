@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+.icon {
+    display               : inline-block;
+    height                : 1em;
+    width                 : 1em;
+    mask-size             : contain;
+    -webkit-mask-size     : contain;
+    mask-repeat           : no-repeat;
+    -webkit-mask-repeat   : no-repeat;
+    mask-position         : center;
+    -webkit-mask-position : center;
+    font-size             : 16px;
+    background-color      : #000;
+    transition: 0.3s;
+
+}
+
+
+.icon.heart {
+    mask-image         : url(../img/icons/heart.svg);
+    -webkit-mask-image : url(../img/icons/heart.svg);
+}
+
+.icon.chart {
+    mask-image         : url(../img/icons/chart.svg);
+    -webkit-mask-image : url(../img/icons/chart.svg);
+}
+.icon.chart-two {
+    mask-image         : url(../img/icons/chart2.svg);
+    -webkit-mask-image : url(../img/icons/chart2.svg);
+}
+.icon.basket {
+    mask-image         : url(../img/icons/basket.svg);
+    -webkit-mask-image : url(../img/icons/basket.svg);
+}
+.icon.plus {
+    mask-image         : url(../img/icons/plus.svg);
+    -webkit-mask-image : url(../img/icons/plus.svg);
+}
+.icon.minus {
+    mask-image         : url(../img/icons/minus.svg);
+    -webkit-mask-image : url(../img/icons/minus.svg);
+}
+.icon.icon-star {
+    mask-image         : url(../img/icons/star.svg);
+    -webkit-mask-image : url(../img/icons/star.svg);
+}
+
+.icon.share {
+    mask-image         : url(../img/icons/share.svg);
+    -webkit-mask-image : url(../img/icons/share.svg);
+}
+
+.icon.phone-lin {
+    mask-image         : url(../img/icons/phone2.svg);
+    -webkit-mask-image : url(../img/icons/phone2.svg);
+}
+.icon.calculator {
+    mask-image         : url(../img/icons/calculator.svg);
+    -webkit-mask-image : url(../img/icons/calculator.svg);
+}
+.icon.boxes {
+    mask-image         : url(../img/icons/boxes.svg);
+    -webkit-mask-image : url(../img/icons/boxes.svg);
+}
+.icon.location {
+    mask-image         : url(../img/icons/location.svg);
+    -webkit-mask-image : url(../img/icons/location.svg);
+}
+
+.icon.home-ic {
+    mask-image         : url(../img/icons/home.svg);
+    -webkit-mask-image : url(../img/icons/home.svg);
+}
+
+.icon.list {
+    mask-image         : url(../img/icons/list.svg);
+    -webkit-mask-image : url(../img/icons/list.svg);
+}
+
+
+.icon.bask {
+    mask-image         : url(../img/icons/bask.svg);
+    -webkit-mask-image : url(../img/icons/bask.svg);
+}
+
+
+.icon.chart-lin {
+    mask-image         : url(../img/icons/chart-lin.svg);
+    -webkit-mask-image : url(../img/icons/chart-lin.svg);
+}
+
+.icon.printer {
+    mask-image         : url(../img/icons/printer.svg);
+    -webkit-mask-image : url(../img/icons/printer.svg);
+}
+
+.icon.delete-ic {
+    mask-image         : url(../img/icons/delete.svg);
+    -webkit-mask-image : url(../img/icons/delete.svg);
+}
+
+.icon.category-one {
+    mask-image         : url(../img/icons/category1.svg);
+    -webkit-mask-image : url(../img/icons/category1.svg);
+}
+
+.icon.category-two {
+    mask-image         : url(../img/icons/category2.svg);
+    -webkit-mask-image : url(../img/icons/category2.svg);
+}
+.icon.category-tree {
+    mask-image         : url(../img/icons/category3.svg);
+    -webkit-mask-image : url(../img/icons/category3.svg);
+}
+
+.icon.filter-cata {
+    mask-image         : url(../img/icons/filter-cata.svg);
+    -webkit-mask-image : url(../img/icons/filter-cata.svg);
+}
+
+.icon.buy {
+    mask-image         : url(../img/icons/buy.svg);
+    -webkit-mask-image : url(../img/icons/buy.svg);
+}
+
